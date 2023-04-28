@@ -28,7 +28,7 @@ try {
   const markup = createSingleProductMarkup(result);
   refs.singleProduct.innerHTML = markup;
 } catch (error) {
-  console.log(error.message);
+  console.log(error);
 }
 }
 
